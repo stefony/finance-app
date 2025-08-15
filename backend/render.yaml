@@ -2,12 +2,11 @@ services:
   - type: web
     name: finance-volatility-api
     env: python
-    buildCommand: pip install -r requirements.txt
+    buildCommand: pip install -r ../requirements.txt
     startCommand: ./start.sh
     plan: free
     envVars:
       - key: PORT
         value: 8000
-envVars:
-  - key: PYTHON_VERSION
-    value: 3.11.9
+      - key: PYTHON_VERSION
+        value: 3.11.9
