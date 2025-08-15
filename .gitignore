@@ -1,0 +1,14 @@
+# Корен
+node_modules/
+.env*
+.DS_Store
+
+# Frontend
+frontend/.next/
+frontend/out/
+
+# Backend
+backend/.venv/
+__pycache__/
+*.pyc
+
